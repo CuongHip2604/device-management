@@ -67,10 +67,6 @@
       "type": "date",
       "required": true
     },
-    "address": {
-      "type": "text",
-      "required": true
-    },
     "phoneNumber": {
       "type": "string",
       "required": true,
