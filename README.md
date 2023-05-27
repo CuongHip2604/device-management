@@ -2,10 +2,10 @@
 
 ## Bước 1
 
-Copy file .env.example sang 1 file mới tên là .env
+Cài đặt `yarn`. Nếu bạn nào đã cài `yarn` rồi thì bỏ qua bước 1. 
 
 ```
-cp .env.example .env
+npm install --global yarn
 ```
 
 ## Bước 2
@@ -14,12 +14,6 @@ Cài đặt những thư viện cần thiết.
 
 ```
 yarn install
-```
-
-Nếu chưa cài `yarn` thì cài bằng lệnh sau:
-
-```
-npm install --global yarn
 ```
 
 ## Bước 3
@@ -32,4 +26,4 @@ yarn start
 
 ## Bước 4
 
-Mở `http://localhost:1337` để vào trang quản lý.
+Thay đổi đường dẫn API trong postman và trong project thành `http://localhost:1337`.
